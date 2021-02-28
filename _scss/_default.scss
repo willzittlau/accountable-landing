@@ -12,7 +12,7 @@ $grey-color: #65638f;
 $light-grey-color: #F6F8FA;
 
 :root {
-  --font-xl: 42px;
+  --font-xl: 48px;
   --font-lg: 24px;
   --font-md: 20px;
   --font-sm: 18px;
@@ -39,6 +39,7 @@ $font-xxs: var(--font-xxs);
 $system-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 $primary-font-family: $system-font-family;
 $secondary-font-family: 'Heebo', sans-serif;
+$cooper-font-family: 'cooper-black-std', serif;
 
 // Mixin
 
@@ -47,7 +48,6 @@ $secondary-font-family: 'Heebo', sans-serif;
   padding: 0 $padding;
   margin: auto;
 }
-
 
 // Global
 
@@ -135,6 +135,10 @@ h1, h2 {
   font-family: $secondary-font-family;
 }
 
+h1.app__name{
+  font-family: $cooper-font-family;
+  font-size: 52px;
+}
 
 .container-desktop {
   @include container($container-padding);
@@ -150,6 +154,10 @@ h1, h2 {
 }
 
 // Components
+
+p.app__description{
+  margin-top:0;
+}
 
 .app {
   &__header {
