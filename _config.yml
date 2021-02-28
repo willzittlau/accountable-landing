@@ -5,7 +5,7 @@
 
 title: accountable
 email: hi@willz.dev
-description: Accountable - becoem a better you.
+description: become a better you.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://getaccountable.ca" # the base hostname & protocol for your site, e.g. http://example.com
 theme_color: '#efeeff'
