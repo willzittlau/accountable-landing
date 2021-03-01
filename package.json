@@ -53,7 +53,7 @@
   "dependencies": {
     "darkmode-js": "^1.5.6",
     "normalize.css": "^7.0.0",
-    "producthunt-floating-prompt": "^1.0.2",
+    "producthunt-floating-prompt": "^1.0.8",
     "rqrauhvmra__tobi": "^1.7.3"
   }
 }

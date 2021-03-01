@@ -39,7 +39,7 @@ $font-xxs: var(--font-xxs);
 $system-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 $primary-font-family: $system-font-family;
 $secondary-font-family: 'Heebo', sans-serif;
-$cooper-font-family: 'cooper-black-std', serif;
+$cooper-black: 'cooper-black-std', serif;
 
 // Mixin
 
@@ -136,7 +136,7 @@ h1, h2 {
 }
 
 h1.app__name{
-  font-family: $cooper-font-family;
+  font-family: $cooper-black;
   font-size: 52px;
 }
 
@@ -157,6 +157,18 @@ h1.app__name{
 
 p.app__description{
   margin-top:0;
+}
+
+// switch image on dark
+.darkmode--activated {
+  .app {
+    &__logo-light{
+      display: block;
+    }
+    &__logo{
+      display: none;
+    }
+  }
 }
 
 .app {
@@ -194,6 +206,15 @@ p.app__description{
   }
 
   &__logo {
+    border-radius: 22.5%;
+    mask-image: url('/assets/images/ios-mask.svg');
+    mask-size: cover;
+    width: 100%;
+    height: auto;
+  }
+
+  &__logo-light {
+    display: none;
     border-radius: 22.5%;
     mask-image: url('/assets/images/ios-mask.svg');
     mask-size: cover;
