@@ -1,13 +1,13 @@
 name: accountable.
 description: become a better you
-full_description: 'A more complete description of the mobile app<br>
-<br>With a lot of features:
-<br>- Feature 1
-<br>- Feature 2
-<br>- Feature 3'
+full_description: 'Habit Tracker / Days Since app which helps you create positive change in your life!<br>
+<br>Features:
+<br>- Track Daily Habits
+<br>- Quit addictions
+<br>- View insights such as streak resets and average streak length'
 android: https://telegra.ph/Replace-this-link-07-23
 iOS: https://telegra.ph/Replace-this-link-07-23
-web: https://telegra.ph/Replace-this-link-07-23
+web: https://getaccountable.app
 screenshots:
   - 1.png
   - 2.png
